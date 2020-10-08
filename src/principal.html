@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form method="POST" action="https://webhook.site/9ee4b88a-4f29-416b-928a-60b8c87ceaa5">
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="Carol" name="nombre">
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" placeholder="Zapata" name="apellidos">
+
+        <br>
+
+        <label for="hombre">Hombre</label>
+        <input name="sexo" type="radio" id="hombre" value="hombre">
+
+        <label for="mujer">Mujer</label>
+        <input name="sexo" type="radio" id="mujer" value="mujer">
+
+        <label for="otro">Otro</label>
+        <input name="sexo" type="radio" id="otro" value="otro">
+
+        <br>
+
+        <label>Email:</label>
+        <input name="email" type="email" placeholder="tu email">
+
+        <label for="pass">Password:</label>
+        <input type="password" placeholder="tu password" name="pass" minlength="5" maxlength="10">
+
+        <br>
+
+        <label for="birthday">Birthday: </label>
+        <input type="date" name="birthday">
+
+        <br>
+
+        <label for="condiciones">Acepto las condiciones de uso</label>
+        <input type="checkbox" required name="condiciones">
+
+        <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    
+    
+</body>
+</html>
